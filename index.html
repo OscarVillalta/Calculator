@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <img src="./assets/black-fabric-texture-as-background_642825-25.avif" alt="" class="background">
+
+    <main>
+        <div class="screen">
+            <p id="screen-text"></p>
+        </div>
+
+        <div class="button-container">
+
+            <div class="function-btns">
+
+            </div>
+            
+            <div class="number-btns">
+                <div class="btn" data-value="1">1</div>
+                <div class="btn" data-value="2">2</div>
+                <div class="btn" data-value="3">3</div>
+                <div class="btn" data-value="4">4</div>
+                <div class="btn" data-value="5">5</div>
+                <div class="btn" data-value="6">6</div>
+                <div class="btn" data-value="7">7</div>
+                <div class="btn" data-value="8">8</div>
+                <div class="btn" data-value="9">9</div>
+                <div class="btn" data-value="0">0</div>
+                <div class="btn" data-value="00">00</div>
+                <div class="btn" data-value=".">.</div>
+            </div>
+
+            <div class="operation-btns">
+                <div class="btn">sqr</div>
+                <div class="btn" id="delete-btn">Delete</div>
+                <div class="btn" data-value=" - ">-</div>
+                <div class="btn" data-value=" / ">÷</div>
+                <div class="btn" data-value=" + " id="add-btn">+</div>
+                <div class="btn" data-value=" X ">x</div>
+                <div class="btn" id="equal-btn">=</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

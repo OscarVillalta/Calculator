@@ -1,0 +1,1 @@
+const DoEquation = require('./script');

@@ -1,0 +1,22 @@
+{
+  "name": "calculator-website",
+  "version": "1.0.0",
+  "description": "just a calculator website",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarVillalta/Calculator.git"
+  },
+  "author": "Oscar Villalta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OscarVillalta/Calculator/issues"
+  },
+  "homepage": "https://github.com/OscarVillalta/Calculator#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
