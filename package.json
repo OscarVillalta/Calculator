@@ -2,7 +2,7 @@
   "name": "calculator-website",
   "version": "1.0.0",
   "description": "just a calculator website",
-  "main": "index.html",
+  "main": "script.js",
   "scripts": {
     "test": "jest"
   },
